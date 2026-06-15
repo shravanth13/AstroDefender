@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/ivSpaceBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_space"
+        android:alpha="0.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A S T R O\nD E F E N D E R"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:letterSpacing="0.3"
+            android:layout_marginBottom="32dp" />
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="48dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/box_border" />
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_rocket" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="P L A Y  ›"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="S E T T I N G S"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1a1a1a"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnHelp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="H E L P"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1a1a1a"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

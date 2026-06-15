@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_bg">#000000</color>
+    <color name="laser_default">#FFFFFF</color>
+    <color name="btn_primary">#FFFFFF</color>
+    <color name="btn_secondary">#1a1a1a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_500">#6200EE</color>
+</resources>

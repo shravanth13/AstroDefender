@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color btn_primary
+color btn_secondary
+color laser_default
+color purple_500
+color space_bg
+color white
+drawable bg_space
+drawable box_border
+drawable ic_launcher_foreground
+drawable ic_rocket
+id btnHelp
+id btnMainMenu
+id btnPlay
+id btnPlayAgain
+id btnSettings
+id ivSpaceBg
+id progressBar
+id tvFinalScore
+id tvStatus
+layout activity_game_over
+layout activity_main
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.AstroDefender
+style Theme.AstroDefender.Fullscreen

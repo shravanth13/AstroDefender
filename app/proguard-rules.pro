@@ -1,0 +1,3 @@
+-keep class com.astrodefender.api.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
